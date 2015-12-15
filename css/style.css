@@ -1,0 +1,320 @@
+/* */
+
+body {
+  background:url(../images/bg.png) repeat-x bottom left #a7d43b;
+  min-height:682px;
+  margin:0 0 0 0;
+  font-family:"Lucida Grande","Lucida Sans Unicode", Trebuchet MS, Arial, Verdana, sans-serif;
+  color:#626362;
+  font-size:16px;
+  }
+
+a {
+  color:#396113;  
+  }
+
+a:hover {
+  color:#244405;
+  }
+  
+.outer-wrapper {
+  width:990px;
+  margin-left:auto;
+  margin-right:auto;
+  background:url(../images/bg-shadow.png) repeat-y 967px 0px;
+  min-height:682px;
+  }  
+  
+.logo {
+  display:block;
+  width:990px;
+  height:180px;
+  background:url(../images/logo.png) no-repeat;
+  }
+  
+.inner-wrapper {
+  background-color:#e1f0bc;
+  height:100%;
+  margin-right:23px;
+  margin-left:17px;
+  min-height:502px;
+  }
+  
+.event-rotation {
+  padding-top:20px;
+  }
+  
+ul#events {
+  margin:0 0 0 0;
+  padding:0 0 0 0;
+  }
+  
+ul#events li {
+  list-style-type:none;
+  }
+  
+.content-wrapper {
+  padding-left:20px;
+  padding-right:20px;
+  }
+  
+.sub-header {
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:25px;
+  color:#5d922a;
+  }  
+
+.uppercase {
+  text-transform:uppercase;
+  }
+  
+.bold {
+  font-weight:bold;
+  }
+  
+h2 {
+  color:#5d922a;
+  font-size:18px;
+  }
+
+.content-container {
+  padding-top:25px;
+  padding-bottom:25px;
+  }
+
+.image-container {
+  width:500px;
+  height:229px;
+  background:url(../images/bild-shadow.png) no-repeat bottom center;
+  }
+
+.row-0 .image-container {
+  background:url(../images/bild-shadow-akt.png) no-repeat bottom center;  
+  height:342px;
+  }
+
+.akt-container {
+  font-size:80%;
+  color:#754875;
+  }
+
+.text-container-wrapper {
+  width:500px;
+  }
+  
+.text-container-content {
+  width:478px;
+  height:178px;
+  border:1px solid #5d922a;
+  padding:10px;
+  font-size:0.9em;
+  }  
+
+.pic-background {
+  height:auto;
+  padding-left:200px;
+  background:url(../images/kaltes-zittern.png) no-repeat top left;  
+  width:288px;
+  }
+
+.text-container-shadow {
+  width:500px;
+  height:9px;
+  background:url(../images/bild-shadow.png) no-repeat bottom center;
+  }
+
+.text-em {
+  color:#5D922A;
+  font-size:1.2em;
+  font-weight:bold;
+  }
+
+.row-0 {
+  background-color:#d2e99b;
+  margin-left:-20px;
+  margin-right:-20px;
+  padding-left:20px;
+  padding-right:20px;
+  }
+
+.row-0 h2, .row-0 h3 {
+  margin-top:0px;
+  }
+
+.row-1 h2 {
+  margin-top:100px;
+  }
+
+.row-2 h2 {
+  margin-top:90px;
+  }
+  
+.row-3 h2 {
+  margin-top:90px;
+  }
+  
+.row-4 h2 {
+  margin-top:40px;
+  }
+
+.row-5 h2 {
+  margin-top:70px;
+  }
+
+.row-6 h2 {
+  margin-top:170px;
+  }
+
+.row-6 .text-container-content h2 {
+  margin-top:0px;
+  }
+
+.row-7 h2 {
+  margin-top:60px;
+  }
+
+.content-right {
+  float:right;
+  }
+
+.content-right h2,
+.content-right .image-container {
+  float:right;
+  text-align:right;
+  }
+
+.content-left {
+  float:left;
+  }
+  
+.size-1-3 {
+  width:385px;
+  }  
+
+.size-2-3 {
+  width:520px;
+  }
+
+.i_telephone {
+  background:transparent url(../images/telephone.png) no-repeat left center;
+  padding-left:20px;
+}
+
+.i_email {
+  background:transparent url(../images/email.png) no-repeat left center;
+  padding-left:20px;
+}
+
+.divider {
+  border:none;
+  height:23px;
+  width:909px;
+  background:transparent url(../images/divider.png) no-repeat left center;  
+  }
+
+.text-container-content .divider {
+  width:280px;
+  background-position:center center;
+  margin-top:10px;
+  }
+
+.imprint-divider {
+  width:445px;
+  height:23px;
+  background:transparent url(../images/divider.png) no-repeat -230px 0px;
+  margin-top:20px;
+  margin-bottom:20px;   
+  }
+ 
+.footer {
+  padding-top:40px;
+  padding-bottom:50px;
+  } 
+
+.up-link {
+  width:110px;
+  font-size:70%;
+  float:right;
+  }
+
+.up-link a {
+   background:transparent url(../images/up.png) no-repeat left center;  
+   display:block;
+   height:17px;
+   padding-left:25px; 
+   line-height:1.6em;
+  }
+
+.impressum-link {
+  padding-left:10px;
+  width:150px;
+  }
+
+.impressum-link a {
+   background:transparent url(../images/impressum.png) no-repeat left center;  
+   display:block;
+   height:17px;
+   padding-left:25px; 
+   line-height:1.6em;
+   font-size:70%;
+  }
+
+/* Impressum Styles */
+
+body#page-imprint {
+  background-image:none;
+  background-color:#e1f0bc;
+  border:10px solid #A7D43B;
+  min-height:480px !important;
+  }
+
+.impressum {
+  padding:15px;
+  font-size:14px;
+  }
+
+.row-0 .content-right {
+	position:relative;
+	}
+
+.recension-link a {
+	text-indent:-9999px;
+	height:66px;
+	width:136px;
+	display:block;
+	position:absolute;
+	top:-22px;
+	left:-10px;
+	background:url(../images/rezensionen.png) top left no-repeat;
+	opacity:.8;
+	}
+
+.recension-link a:hover {
+	opacity:1;
+	}
+  
+/*
+** Markup free clearing
+** Details: http://www.positioniseverything.net/easyclearing.html
+*/
+.clear-block:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clear-block {
+  display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clear-block {
+  height: 1%;
+}
+.clear-block {
+  display: block;
+}
+/* End hide from IE-mac */

@@ -1,0 +1,24 @@
+.outer-wrapper {
+  background:url(../images/bg-shadow-ie6.gif) repeat-y 967px bottom;
+  height:682px;
+  } 
+  
+.divider {
+  background:transparent url(../images/divider.gif) no-repeat left center;  
+  }
+  
+.up-link a {
+   background:transparent url(../images/up.gif) no-repeat left center;
+  }
+  
+.text-container-shadow {
+  margin-top:-11px;
+  }
+  
+body#page-imprint {
+  height:280px;
+  }
+  
+.impressum-link a {
+   background:transparent url(../images/impressum.gif) no-repeat left center;  
+}
