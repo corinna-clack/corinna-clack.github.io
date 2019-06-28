@@ -293,7 +293,22 @@ body#page-imprint {
 .recension-link a:hover {
 	opacity:1;
 	}
-  
+
+
+.videos {
+  margin-top: 30px;
+  font-size: 13px;
+}
+ 
+.videos h2 {
+  font-size:16px;
+}
+
+.videos li {
+  margin-bottom:10px;
+}
+
+
 /*
 ** Markup free clearing
 ** Details: http://www.positioniseverything.net/easyclearing.html
