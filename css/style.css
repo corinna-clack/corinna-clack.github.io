@@ -1,5 +1,7 @@
 /* */
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background:url(../images/bg.png) repeat-x bottom left #a7d43b;
   min-height:682px;
