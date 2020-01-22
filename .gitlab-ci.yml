@@ -12,6 +12,6 @@ deploy:
     name: live
     url: https://corinna-clack.de/
   script:
-    - ssh root@167.71.58.206 "cd /var/www/html/deployment/ && git checkout master && git pull origin master && git log --oneline | head -n 5 && exit"
+    - ssh root@corinna-clack.de "cd /var/www/html/corinna-clack.de/ && git checkout master && git pull origin master && git log --oneline | head -n 5 && exit"
   only:
     - master
