@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
   <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
     <head>
-      <title>Impressum : Corinna Clack</title>
+      <title>Videos : Corinna Clack</title>
   
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="keywords" content="Kinder- und Jugendtanztheater, Tanztheater, Kreativer Kindertanz, Kreativer Tanz, Kindertanz, Tanzimprovisation, Tanzpädagogik, Tanz, Tanzkurse / Tanzworkshop, Tanzprojekte, Choreographie, Bewegungsimprovisation, Bewegungsgestaltung Heidelberg, Tanzgestaltung, Anna Halprin, Körperarbeit, Fortbildung Tanzpädagogin, Diplom-Tanzpädagogin, Freier Tanz, Moderner Tanz, Neuere Tanz" />
@@ -37,6 +37,17 @@ Sie kooperiert mit dem Kinder- und Jugendtheater zwinger3 Heidelberg für Tanzpr
 
 		  	});
   	   </script>
+        <!-- to disable video for next year -->
+        <script type="text/javascript">
+            function display() {
+                var today = new Date();
+                var yyyy = today.getFullYear();
+                if (yyyy > 2020) {
+                    document.getElementById("disable").style.display = "none";
+                }
+            }
+
+        </script>
 
   
       <style type="text/css" media="all">
@@ -48,33 +59,33 @@ Sie kooperiert mit dem Kinder- und Jugendtheater zwinger3 Heidelberg für Tanzpr
 
 
   </head>  
-  <body id="page-imprint">
+  <body id="page-imprint" onload="display()">
    <a id="up"></a>
     <div class="impressum">
     
-    <h2 class="uppercase">Impressum</h2>
+    <h2 class="uppercase">Videos</h2>
+        <div class="videos">
+            <h2>Videos zu Hand in Hand</h2>
+
+            <ul>
+                <li><a target="_blank" href="https://www.youtube.com/watch?v=t3Rj42dNDN0&frags=pl%2Cwn">Tanztheater Hand in Hand (5 min)</a> <br /> <em>von LKJ Baden-Württemberg, veröffentlicht auf Youtube)</em></li>
+                <li><a target="_blank" href="https://vimeo.com/337760041/50faf20d58">Einblicke HAND IN HAND (Kurzfassung, 9 min)</a>
+                    <br />
+                    <a target="_blank" href="https://vimeo.com/337643693/83ad4df394">Einblicke HAND IN HAND (Langfassung, 21 min)</a>
+                    <br /><em>von Stefan Pößiger, veröffentlicht auf Vimeo)</em></li>
+            </ul>
+        </div>
+        <div class="videos" id="disable">
+            <h2>Im Fernsehen</h2>
+
+            <ul>
+                <li><a target="_blank" href="https://www.ardmediathek.de/swr/player/Y3JpZDovL3N3ci5kZS9hZXgvbzExNzkzMTQ/corinna-clack-tanzpaedagogin-und-choreografin">JUNGES TANZTHEATER im SWR (10 min)</a> <br /> <em>Kaffee oder Tee - SWR Fernsehen</em></li>
+
+            </ul>
+
+        </div>
     
-    Verantwortliche für den Inhalt dieser Webseite:
-    <br />
-    <br />
-    <b>Corinna Clack</b>
-    <br />
-    Alexander-Colin-Str. 6
-    <br />
-    69121 Heidelberg
-    <br />
-    <br />
-    
-    <div class="i_email">e-mail: <a href="mailto:dance@corinna-clack.de">dance@corinna-clack.de</a></div>
-    <div class="i_telephone">phone: 06221 / 6555501</div>
-    
-    <div class="imprint-divider"></div>
-    
-    Grafiken <b>Theresia Glaser, Denise Reuter, Max Kraus</b>
-    <br /><br />
-    Fotografien <B>Gabriele Schilgen, Rainer Bless, Yvonne Vogel, Günter Krämmer</B>
-    <br /><br />
-    Grafikbearbeitung und Website <b><a href="http://erdfisch.de" target="_blank">erdfisch</a></b>
+
     
     </div><!-- /outer-wrapper -->
   </body>
