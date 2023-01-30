@@ -54,6 +54,10 @@ ul#events {
 ul#events li {
   list-style-type:none;
   }
+
+ul#events li img {
+  max-width: 100%;
+}
   
 .content-wrapper {
   padding-left:20px;
